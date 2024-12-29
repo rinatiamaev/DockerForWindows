@@ -1,4 +1,4 @@
-# DockerForWindows
+# DockerForWindows for testing your C file that use <unistd.h>, etc
 
 For students of 42 Ecole (like HIVE) and people who want to test their projects that use `<unistd.h>` on a Windows machine.
 
@@ -26,8 +26,8 @@ To start the container and link your project folder to the /hiveproject director
 ```powerShell
 docker run -it --rm -v ${PWD}:/hiveproject ubuntu-c-clang-env
 ```
--it: Runs the container in interactive teerminal.
---rm: Automatically removes the container after you exit.
+-it: Runs the container in interactive terminal.  
+--rm: Automatically removes the container after you exit.  
 -v ${PWD}:/hiveproject: Mounts your current directory (${PWD}) into the /app folder in the container.
 
 ##### Test Your C Code
