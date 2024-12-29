@@ -26,7 +26,7 @@ To start the container and link your project folder to the /hiveproject director
 ```powerShell
 docker run -it --rm -v ${PWD}:/hiveproject ubuntu-c-clang-env
 ```
--it: Runs the container in interactive teerminal.  
+-it: Runs the container in interactive terminal.  
 --rm: Automatically removes the container after you exit.  
 -v ${PWD}:/hiveproject: Mounts your current directory (${PWD}) into the /app folder in the container.
 
