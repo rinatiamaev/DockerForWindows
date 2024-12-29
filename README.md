@@ -1,4 +1,4 @@
-# DockerForWindows
+# DockerForWindows for testing your C file that use <unistd.h>, etc
 
 For students of 42 Ecole (like HIVE) and people who want to test their projects that use `<unistd.h>` on a Windows machine.
 
